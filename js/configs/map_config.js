@@ -40,7 +40,7 @@ define({
                 }
             },
             {
-                url: 'https://utility.arcgis.com/usrsvcs/servers/d0df882241e6477a923e4fa3b05bd27e/rest/services/USA_WatershedBoundaryDataset/MapServer',
+                url: 'https://utility.arcgis.com/usrsvcs/servers/59818eba48b44f5ab502e8b647dfa095/rest/services/USA_WatershedBoundaryDataset/MapServer',
                 options: {
                     id: 'watershed-layer',
                     visibleLayers: [1, 2],
@@ -244,7 +244,7 @@ define({
         ],
         
         appDataQueryTasks: [
-            {name: 'watershed-layer', url: 'https://utility.arcgis.com/usrsvcs/servers/d0df882241e6477a923e4fa3b05bd27e/rest/services/USA_WatershedBoundaryDataset/MapServer/'},
+            {name: 'watershed-layer', url: 'https://utility.arcgis.com/usrsvcs/servers/59818eba48b44f5ab502e8b647dfa095/rest/services/USA_WatershedBoundaryDataset/MapServer/'},
             {name: 'county-layer', url: 'https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Counties_Generalized/FeatureServer/'},
             {name: 'amountByTime', url: 'https://utility.arcgis.com/usrsvcs/servers/c8513c2e93ed4e32a8bb6c50c51c91e9/rest/services/LiveFeeds/NDFD_Precipitation/MapServer/0'},
             {name: 'accumulationByTime', url: 'https://utility.arcgis.com/usrsvcs/servers/c8513c2e93ed4e32a8bb6c50c51c91e9/rest/services/LiveFeeds/NDFD_Precipitation/MapServer/1'},
