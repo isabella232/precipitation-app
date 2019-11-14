@@ -4,7 +4,7 @@ The [Precipitation App](https://livingatlasdev.arcgis.com/precipitation/) provid
 
 ![App](precip-app-screenshot.png)
 
-[View it live](https://livingatlasdev.arcgis.com/precipitation/)
+[View it live](https://livingatlas.arcgis.com/precipitation/)
 
 ## Features
 1. Click on any county or watershed to see the forecast for that area. You can also sketch a custom area of interest if desired. The forecast for your area of interest can be viewed in terms of incremental precipitation or in terms of cumulative precipitation (accumulation). Both are reported in 6-hour intervals over next 72 hours. 
